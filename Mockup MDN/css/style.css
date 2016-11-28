@@ -1,0 +1,218 @@
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.2rem;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/*Contenedor de la barra de navegacion: Columna*/
+.container_menu {
+  height: 100%;
+  width: 18rem;
+  position: fixed;
+  background-color: #0971B2;
+}
+
+/*Barra de navelación*/
+.container_menu .menu {
+  width: 100%;
+  padding: 0;
+}
+
+.container_menu .logo{
+  width: 100%;
+  height: 4.5rem;
+  display: block;
+  background-color: #319DCC;
+  margin-top: 1.5rem;
+}
+
+.container_menu .logo img {
+  width: 50%;
+  height: 60%;
+  margin: 1rem 0rem 20rem 1rem;
+
+}
+
+.container_menu ul {
+  list-style-type: none;
+}
+
+/*Elementos de la lista*/
+.container_menu .menu li a{
+  color: white;
+  display: block;
+  /*margin-left: 1rem;*/
+  padding: 1rem 1.5rem;
+  background-color: #0971B2;
+  text-decoration: none;
+}
+
+.container_menu .menu .icon {
+  line-height: 1rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  opacity: 0.7;
+}
+
+.container_menu .menu li a:hover {
+  color: white;
+  background-color: #1485CC;
+}
+
+/*Botones de redes sociales en la barra lateral*/
+.social_media {
+  text-align: center;
+  margin: 2rem 1.7rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.social_media a {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  color: #FFF;
+  background-color: #1485CC;
+  margin: 0 .8rem;
+}
+
+.social_media a:hover {
+  color: #1485CC;
+  background-color: #FFF;
+}
+
+.social_media .round {
+  margin-top: .9rem;
+  font-size: 1.2rem;
+}
+
+/*Contenedor principal*/
+.container_main {
+  height: 100%;
+  width: 66.31rem;
+  background-color: #FFF;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /*position: relative;
+  float: right;*/
+}
+
+.container_main .banner_main {
+  display: block;
+  width: 100%;
+  height: 30.5rem;
+  background-color: gray;
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container_main .banner_main h1 {
+  text-shadow: 1px 1px gray;
+  text-align: center;
+  color: #FFF;
+  font-size: 3rem;
+  font-style: bold;
+  position: absolute;
+  width: 45rem;
+  top: 8rem;
+  left: 0; right: 0;
+  margin-left: auto; margin-right: auto;
+}
+
+.container_main .banner_main .row_buttons {
+  display: block;
+  width: 55.15rem;
+  height: auto;
+  position: absolute;
+  top: 20rem;
+  left: 0; right: 0;
+  margin-left: auto; margin-right: auto;
+}
+
+.container_main .banner_main .row_buttons a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #0971B2;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.container_main .banner_main .row_buttons .buttons_banner {
+  position: relative;
+  width: 16.05rem;
+  height: auto;
+  border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+  background-color: #E9EDED;
+  box-shadow: inset 0px 1px 0px #E9EDED, 0px 5px 0px 0px #07526E;
+}
+
+.container_main .banner_main .row_buttons .buttons_banner:hover {
+  top: .18rem;
+  box-shadow: inset 0px 1px 0px #E9EDED, 0px 2px 0px 0px #07526E;
+}
+
+.buttons_banner figure {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.buttons_banner figure i {
+  font-size: 2rem;
+}
+
+.teaching_activities, .opportunities, .community {
+  display: block;
+  width: 100%;
+  height: 25rem;
+  background-color: #FFF;
+  position: relative;
+}
+
+.web_literacy, .tools {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  background-color: #EBEDEB;
+  position: relative;
+}
+
+h2 {
+ position: absolute;
+ left: 5rem;
+ top: 2.5rem;
+ color: #525454;
+ font-weight: lighter;
+ font-size: 1.7rem;
+}
+
+p {
+  position: absolute;
+  top: 3.5rem;
+  color: #525454;
+  width: 30rem;
+  height: 15rem;
+  margin: 5rem;
+  text-align: justify;
+}
+
+.web_literacy > p, .tools > p {
+  position: absolute;
+  left: 25rem;
+  font-style: italic;
+}
