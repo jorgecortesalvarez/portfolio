@@ -12,7 +12,7 @@ body {
 .wrapper {
   width: 100%;
   height: 100%;
-  position: relative;
+  background-color: #319DCC;
 }
 
 /*Contenedor de la barra de navegacion: Columna*/
@@ -21,6 +21,7 @@ body {
   width: 18rem;
   position: fixed;
   background-color: #0971B2;
+  z-index: 2;
 }
 
 /*Barra de navelación*/
@@ -102,12 +103,9 @@ body {
 .container_main {
   height: 100%;
   width: 66.31rem;
+  padding-left: 18rem;
   background-color: #FFF;
-  position: absolute;
-  top: 0;
-  right: 0;
-  /*position: relative;
-  float: right;*/
+  position: relative;
 }
 
 .container_main .banner_main {
