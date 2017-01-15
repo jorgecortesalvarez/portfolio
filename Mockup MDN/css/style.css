@@ -69,6 +69,7 @@ body {
 .container_menu .menu li a:hover {
   color: white;
   background-color: #1485CC;
+  transition: background 0.4s;
 }
 
 /*Botones de redes sociales en la barra lateral*/
@@ -92,6 +93,7 @@ body {
 .social_media a:hover {
   color: #1485CC;
   background-color: #FFF;
+  transition: background 0.4s;
 }
 
 .social_media .round {
@@ -116,6 +118,7 @@ body {
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
 }
 
